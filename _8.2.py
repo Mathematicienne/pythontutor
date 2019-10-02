@@ -8,7 +8,5 @@ def power(a, n):
         for i in range(-n):
             a1 *= a
     return(a1)
-a = float(input())
-n = int(input())
-print(power(a, n))
+print(power(float(input()), int(input())))
 
