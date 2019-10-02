@@ -3,4 +3,3 @@ def capitalize(s):
     return s
 print(capitalize(input()))
 
-
